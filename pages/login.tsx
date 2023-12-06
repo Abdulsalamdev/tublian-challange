@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Login() {
   return (
-    <div>
+    <div className="bg-[#121212]">
       <SignIn />
     </div>
   );

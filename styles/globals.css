@@ -24,3 +24,7 @@
   width: 50%;
   height: 100%;
 } */
+
+.google {
+  border: 1px solid var(--gradient_2, #fbda61);
+}

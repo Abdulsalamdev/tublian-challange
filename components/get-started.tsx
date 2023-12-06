@@ -5,7 +5,7 @@ import React from "react";
 
 export function GetStarted() {
   return (
-    <div className="bg-[#121212] flex gap-[40px] h-[100vh]">
+    <div className=" flex gap-[40px] h-[100vh]">
       <Image
         src={"/images/home.png"}
         alt={""}
