@@ -28,3 +28,9 @@
 .google {
   border: 1px solid var(--gradient_2, #fbda61);
 }
+
+.planning {
+  border-radius: 20px;
+  border: 1px solid var(--gradient_2, #fbda61);
+  background: var(--base-50-dark, #1e1e1e);
+}
