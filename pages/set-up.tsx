@@ -1,5 +1,10 @@
+import { AccountSetup } from "@/components/account-setup";
 import React from "react";
 
 export default function SetUp() {
-  return <d1v></d1v>;
+  return (
+    <div className="bg-[#121212]">
+      <AccountSetup />
+    </div>
+  );
 }
