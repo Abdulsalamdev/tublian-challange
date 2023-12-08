@@ -33,9 +33,9 @@ export function AccountSetup() {
       <p className="flex justify-center text-center m-auto text-[#CFCFCF] text-[16px] font-medium font-Space-Grotesk max-w-[379px] pb-[10px]">
         We will customize your experience based on your option.
       </p>
-      <div className="flex justify-center items-center pt-[40px]">
-        <div className="flex flex-wrap gap-[20px] items-center">
-          <div className="planning p-[10px] flex  gap-[10px] sm:flex-col sm:flex-wrap sm:items-center flex-row-reverse">
+      <div className="flex justify-center items-center py-[40px]">
+        <div className="flex flex-wrap gap-[20px] items-center justify-center">
+          <div className="planning p-[20px] flex  gap-[10px] sm:flex-col sm:flex-wrap sm:items-center flex-row-reverse">
             <Image
               src={"/images/mark.png"}
               alt={""}
@@ -65,7 +65,7 @@ export function AccountSetup() {
             <div className="w-[24px] h-[24px] bg-[#292929] rounded-full self-center sm:self-end"></div>
             <div className="flex sm:flex-col  items-center self-center sm:self-end">
               <Image
-                src={"/images/team-work.png"}
+                src={"/images/collaborate.png"}
                 alt={""}
                 width={150}
                 height={150}
@@ -81,7 +81,26 @@ export function AccountSetup() {
               </div>
             </div>
           </div>
-          <div></div>
+          <div className="p-[20px] flex  gap-[10px] sm:flex-col sm:flex-wrap sm:items-center flex-row-reverse rounded-[20px] bg-[#1e1e1e]">
+            <div className="w-[24px] h-[24px] bg-[#292929] rounded-full self-center sm:self-end"></div>
+            <div className="flex sm:flex-col  items-center self-center sm:self-end">
+              <Image
+                src={"/images/people.png"}
+                alt={""}
+                width={150}
+                height={150}
+                className="max-w-[200px] h-auto m-auto"
+              />
+              <div className="flex items-center flex-col">
+                <p className="text-[clamp(17px,1.5vw,24px)] text-[#FEFEFE] font-Space-Grotesk font-bold whitespace-nowrap">
+                  Personal Projects
+                </p>
+                <p className="text-[#CFCFCF] text-center text-[16px] font-Space-Grotesk font-medium max-w-[210px]">
+                  Hire developers for personal projects.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
